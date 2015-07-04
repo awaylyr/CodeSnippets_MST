@@ -28,7 +28,7 @@ if (![fetchedResultsController performFetch:&amp;error]) {
 	<key>IDECodeSnippetSummary</key>
 	<string>Boilerplate for creating an NSFetchedResultsController</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Euan NSFetchedResultsController</string>
+	<string>MST NSFetchedResultsController</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

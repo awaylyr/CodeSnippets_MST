@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>typedefEnum</string>
+	<string>typedefEnum, ns_enum</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>TopLevel</string>
@@ -17,8 +17,10 @@
 	<string>4EF8EAC8-9032-4D12-97A8-4DC8D3ACEA25</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>typedef enum</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Euan Typedef Enum</string>
+	<string>MST Typedef Enum</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

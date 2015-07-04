@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>zqLocalDict</string>
+	<string>loadLocalDict</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>+ (NSMutableDictionary*)localDict
+	<string>+ (NSMutableDictionary*)&lt;#localDict#&gt;
 {
     NSMutableDictionary *dict = nil;
     if (!_notificationDesign)
@@ -27,7 +27,7 @@
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>zq Dictionary from local</string>
+	<string>MST Dictionary from local</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

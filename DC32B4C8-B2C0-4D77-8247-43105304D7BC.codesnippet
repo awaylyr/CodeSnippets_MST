@@ -3,33 +3,52 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>requestblock</string>
+	<string>mark_viewController</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - ASIHTTPRequestDelegate
-- (void)requestFinished:(ASIHTTPRequest *)respondRequest
+	<string>#pragma mark - life Style
+- (void)viewDidLoad
 {
-    [MBProgressHUDHelper hideHUD];
+    [super viewDidLoad];
+    // Do any additional setup after loading the view from its nib.
 }
 
-- (void)requestFailed:(ASIHTTPRequest *)request
-{
-    [MBProgressHUDHelper hideHUD];
-    NSError *error = [request error];
-    
-    [MBProgressHUDHelper showNetError];    
-    NSLog(@"RequestFailed: tag=%d  error=%@", request.tag, error);
-}
+
+#pragma mark - customDelegate
+
+
+
+#pragma mark - event response
+
+
+
+#pragma mark - private methods
+
+
+
+#pragma mark Network
+
+
+
+#pragma mark Update Views
+
+
+
+#pragma mark - getters and setters
+
+
 </string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>A34CA722-0849-4A1B-BC04-7C3BB976BFF7</string>
+	<string>DC32B4C8-B2C0-4D77-8247-43105304D7BC</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>UIViewController common mark</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>zq request block</string>
+	<string>MST UIViewController common mark</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

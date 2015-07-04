@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>typedefOption</string>
+	<string>typedefOption, typedef_ns_options</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>TopLevel</string>
@@ -21,7 +21,7 @@
 	<key>IDECodeSnippetSummary</key>
 	<string>NS_OPTIONS, MASK</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Euan Typedef Option</string>
+	<string>MST Typedef Option</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

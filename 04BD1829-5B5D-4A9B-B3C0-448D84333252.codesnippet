@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>property_NSInterger</string>
+	<string>ppt_i, @property</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassInterfaceMethods</string>
@@ -17,7 +17,7 @@
 	<key>IDECodeSnippetSummary</key>
 	<string>@property (assign, nonatomic) NSInteger  </string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Euan @Property NSInterger</string>
+	<string>MST @Property NSInterger</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

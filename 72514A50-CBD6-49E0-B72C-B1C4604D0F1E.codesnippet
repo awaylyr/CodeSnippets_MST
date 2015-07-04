@@ -9,17 +9,20 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>        @try {
-        } @catch (NSException * e) {
-            NSLog(@"Exception: %@", e);
-        }
+	<string>@try {
+    
+} @catch (NSException * e) {
+    NSLog(@"Exception: %@", e);
+}
 </string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>72514A50-CBD6-49E0-B72C-B1C4604D0F1E</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Try Catch Block</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>zq try catch block</string>
+	<string>MST Try Catch Block</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

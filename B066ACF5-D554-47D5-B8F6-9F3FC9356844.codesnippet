@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>xx_pushnavigation</string>
+	<string>pushVC</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
@@ -16,8 +16,10 @@
 	<string>B066ACF5-D554-47D5-B8F6-9F3FC9356844</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>push viewController </string>
 	<key>IDECodeSnippetTitle</key>
-	<string>zq pushViewController</string>
+	<string>MST pushViewController</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

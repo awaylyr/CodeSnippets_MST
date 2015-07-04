@@ -22,9 +22,9 @@
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>dispatch_async</string>
+	<string>dispatch_async() </string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Euan dispatch_async</string>
+	<string>MST dispatch_async Pattern for Background Processing</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

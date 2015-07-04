@@ -9,14 +9,16 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#warning TODO &lt;#dsfdsfdsf#&gt;
+	<string>#warning TODO &lt;#warning message#&gt;
 </string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>E3E2EB86-1ED3-4868-BCC3-27125EEEA111</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>add todo warning</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>zq_todo</string>
+	<string>MST_TODO_Warning</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

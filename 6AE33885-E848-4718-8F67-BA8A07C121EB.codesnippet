@@ -35,7 +35,7 @@
 	<key>IDECodeSnippetSummary</key>
 	<string>Function that extracts human-readable information from OSStatus codes.</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Euan CheckError</string>
+	<string>MST CheckError</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

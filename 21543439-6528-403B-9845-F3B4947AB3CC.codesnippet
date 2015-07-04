@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>NSUserDefaultsSetObject</string>
+	<string>nsuserdefaults set</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string> [[NSUserDefaults standardUserDefaults] setObject:&lt;#Object#&gt; forKey:Key];
+	<string> [[NSUserDefaults standardUserDefaults] setObject:&lt;#Object#&gt; forKey:&lt;#Key#&gt;];
     [[NSUserDefaults standardUserDefaults] synchronize];</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>21543439-6528-403B-9845-F3B4947AB3CC</string>
@@ -18,7 +18,7 @@
 	<key>IDECodeSnippetSummary</key>
 	<string>[NSUserDefaults statardUserDefaults] setObject</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>UserDefaults set</string>
+	<string>MST UserDefaults set</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>viewWillDisappear</string>
+	<string>viewWillDisappear, viewWillAppear</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
@@ -25,8 +25,10 @@
 	<string>11B853C7-BB3F-4D4C-8A85-69A744901A8E</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>viewWillDisappear, viewWillAppear</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Euan ViewWillAppear</string>
+	<string>MST ViewWillAppear</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

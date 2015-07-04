@@ -2,21 +2,20 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>Event</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeExpression</string>
+		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    [MobClick event:NSStringFromSelector(_cmd)];
-</string>
+	<string>static NSString *const k&lt;#name#&gt; = @"&lt;#value#&gt;";</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>456841DD-BD5D-4C81-B981-9039FB4858F4</string>
+	<string>35F796A6-B774-4552-B764-388C942CC3CE</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>static NSString *const </string>
 	<key>IDECodeSnippetTitle</key>
-	<string>ZQ Umeng Event</string>
+	<string>MST static NSString *const</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

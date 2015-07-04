@@ -3,30 +3,60 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>viewdidload</string>
+	<string>mark_tbviewcontroller</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (void)viewDidLoad
+	<string>#pragma mark - life Style
+- (void)viewDidLoad
 {
     [super viewDidLoad];
-    [self setTitle:@"&lt;#title#&gt;"];
-    [self.view setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"common_background_1"]]];
-    [UINavigationBar customNavBackBtnWithTitle:@"返回" viewCtrller:self target:self action:@selector(back)];
+    // Do any additional setup after loading the view from its nib.
 }
 
-- (void)back
-{
-    [self.navigationController popViewControllerAnimated:YES];
-}</string>
+#pragma mark - UITableViewDataSource
+
+
+
+#pragma mark - UITableViewDelegate
+
+
+
+#pragma mark - customDelegate
+
+
+
+#pragma mark - event response
+
+
+
+#pragma mark - private methods
+
+
+
+#pragma mark Network
+
+
+
+#pragma mark Update Views
+
+
+
+#pragma mark - getters and setters
+
+
+
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>270C8C38-C5C4-4D54-90E6-0F753D0FC001</string>
+	<string>9C43C224-E13D-4BB0-B8B7-47B1BE8D8829</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>UITableViewController Summary mark</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>zq viewdidload block</string>
+	<string>MST UITableViewController Summary mark</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

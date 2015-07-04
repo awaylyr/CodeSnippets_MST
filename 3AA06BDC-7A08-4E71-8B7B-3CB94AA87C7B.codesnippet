@@ -65,7 +65,7 @@
 	<key>IDECodeSnippetSummary</key>
 	<string>Placehoders for the fetched results controller delegate methods</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Euan NSFetchResultsControllerDelegate</string>
+	<string>MST NSFetchResultsControllerDelegate</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

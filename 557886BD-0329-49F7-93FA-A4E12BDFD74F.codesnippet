@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>singleton</string>
+	<string>singleton, sharedInstance</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
@@ -26,7 +26,7 @@
 	<key>IDECodeSnippetSummary</key>
 	<string>Class method that returns a singleton instance</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Euan Shared Singleton</string>
+	<string>MST Shared Singleton</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

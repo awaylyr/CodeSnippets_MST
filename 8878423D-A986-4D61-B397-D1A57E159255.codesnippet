@@ -2,8 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>init</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
@@ -11,18 +9,19 @@
 	<key>IDECodeSnippetContents</key>
 	<string>- (id)init
 {
-    self = [super init];
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"&lt;#StoryboardName#&gt;" bundle:nil];
+    self = [storyboard instantiateViewControllerWithIdentifier:@"&lt;#boardID#&gt;"];
     if (self) {
-        &lt;#statement#&gt;
+    
     }
     return self;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>2982B153-0388-4FB2-9AE4-8806EA44B3B9</string>
+	<string>8878423D-A986-4D61-B397-D1A57E159255</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>zq init block</string>
+	<string>MST Init With Storyboard Implemention</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

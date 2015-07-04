@@ -15,8 +15,10 @@
 	<string>A06C09A9-CA52-40BE-80C6-1012750F5970</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>typedef void (^&lt;#failue#&gt;)(void);</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>zq block define</string>
+	<string>MST block define</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

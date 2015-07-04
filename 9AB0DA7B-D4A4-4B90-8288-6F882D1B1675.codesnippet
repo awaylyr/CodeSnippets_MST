@@ -3,20 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>UIViewInit</string>
+	<string> enumerateIndexSet</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>UIView *view = [[UIView alloc] initWithFrame:CGRectMake(&lt;#CGFloat#&gt;, &lt;#CGFloat#&gt;, &lt;#CGFloat#&gt;, &lt;#CGFloat#&gt;)];
-</string>
+	<string>NSUInteger index = [&lt;#indexSet#&gt; firstIndex];
+while (index != NSNotFound) {
+    &lt;#statements#&gt;
+    index = [&lt;#indexSet#&gt; indexGreaterThanIndex:index];
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>B2680844-AFFF-42CC-9E7D-8880A2F70B80</string>
+	<string>9AB0DA7B-D4A4-4B90-8288-6F882D1B1675</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Enumerate through an index set.</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>zq uiview init</string>
+	<string>Enumerate Index Set</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

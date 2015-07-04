@@ -7,8 +7,8 @@
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassInterfaceMethods</string>
-		<string>TopLevel</string>
 		<string>ClassImplementation</string>
+		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>#pragma mark - &lt;#Section#&gt;</string>
@@ -19,7 +19,7 @@
 	<key>IDECodeSnippetSummary</key>
 	<string>#pragma mark</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Euan #pragma Mark</string>
+	<string>MST #pragma Mark</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

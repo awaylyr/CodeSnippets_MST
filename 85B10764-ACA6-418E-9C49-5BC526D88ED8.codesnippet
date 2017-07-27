@@ -3,35 +3,30 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>viewWillDisappear, viewWillAppear</string>
+	<string>singleton</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (void)viewWillAppear:(BOOL)animated
+	<string>+ (instancetype)sharedSingleton
 {
-    [super viewWillAppear:animated];
-    
-}
-
-- (void)viewWillDisappear:(BOOL)animated
-{
-    
-    [super viewWillDisappear:animated];
-}
-</string>
+    static &lt;#class#&gt; *instance = nil;
+    static dispatch_once_t onceToken;
+    dispatch_once(&amp;onceToken, ^{
+        instance = [[self alloc] init];
+    });
+    return instance;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>11B853C7-BB3F-4D4C-8A85-69A744901A8E</string>
+	<string>85B10764-ACA6-418E-9C49-5BC526D88ED8</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>viewWillDisappear, viewWillAppear</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>MST ViewWillAppear</string>
+	<string>singleton</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

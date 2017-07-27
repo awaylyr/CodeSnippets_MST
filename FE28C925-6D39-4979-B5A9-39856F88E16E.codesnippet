@@ -3,24 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>xae</string>
+	<string>@property</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>XCTAssertEqual(&lt;#expected#&gt;, &lt;#actual#&gt;, &lt;#message#&gt;);</string>
+	<string>@property (nonatomic, weak) &lt;#propertyClass#&gt;  *&lt;#propertyName#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>11954FDB-2C14-4337-8016-601A915DF707</string>
+	<string>FE28C925-6D39-4979-B5A9-39856F88E16E</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>Assert equals for XCTest</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>MST XCT Assert Equals</string>
+	<string>@property weak</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
